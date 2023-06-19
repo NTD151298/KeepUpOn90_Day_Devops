@@ -20,15 +20,18 @@ int main() // Mục tiêu đó là kiểm tra số a nhập có > < = 0 không v
         cin >> a;              // đầu vào tại vị trí a
         if (a > 0)
         {
-            cout << "a = " << a << " > 0. con lai " << n - i - 1 << " lan"; // in ra giá trị a lớn hơn 0
+            cout << "a = " << a << " > 0. con lai ";
+            cout << n - i - 1 << " lan"; // in ra giá trị a lớn hơn 0
         }
         else if (a == 0)
         {
-            cout << "a = " << a << " = 0. con lai " << n - i - 1 << " lan"; // in ra giá trị a bằng 0
+            cout << "a = " << a << " = 0. con lai ";
+            cout << n - i - 1 << " lan"; // in ra giá trị a bằng 0
         }
         else
         {
-            cout << "a = " << a << " < 0. con lai " << n - i - 1 << " lan"; // in ra giá trị a nhỏ hơn 0
+            cout << "a = " << a << " < 0. con lai ";
+            cout << n - i - 1 << " lan"; // in ra giá trị a nhỏ hơn 0
         }
     }
     return 0;
